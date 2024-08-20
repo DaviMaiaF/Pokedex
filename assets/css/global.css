@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+body {
+    background-color: #f6f8fc;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px; /* Limite a largura máxima */
+    padding: 1rem;
+    background-color: #fff;
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+}
